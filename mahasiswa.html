@@ -1,0 +1,22 @@
+#looping
+{% for data in value %}
+{{ data }}
+{% endfor %}
+#if-else
+{% if suasana == "senang" %}
+dia juga suka
+
+{% else %}
+dia sedih
+
+{% endif %}
+{% set hari = "jumat berkah" %}
+{{ hari }}
+
+{% for data in value %} {% if data == "senin" %}
+aku senang
+
+{% elif data == "minggu" %}
+aku libur
+
+{% endif %} {% endfor %}
